@@ -20,6 +20,122 @@ Object {
       },
       "type": "CALL",
     },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          400,
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/delayP",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "https://example.com",
+          Object {
+            "payload": Object {
+              "key": "value",
+            },
+          },
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/mockConstructor",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          800,
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/delayP",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "https://example.com",
+          Object {
+            "payload": Object {
+              "key": "value",
+            },
+          },
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/mockConstructor",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          1200,
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/delayP",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "https://example.com",
+          Object {
+            "payload": Object {
+              "key": "value",
+            },
+          },
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/mockConstructor",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          1600,
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/delayP",
+      },
+      "type": "CALL",
+    },
+    Object {
+      "@@redux-saga/IO": true,
+      "combinator": false,
+      "payload": Object {
+        "args": Array [
+          "https://example.com",
+          Object {
+            "payload": Object {
+              "key": "value",
+            },
+          },
+        ],
+        "context": null,
+        "fn": "@@redux-saga-test-plan/json/function/mockConstructor",
+      },
+      "type": "CALL",
+    },
   ],
   "put": Array [
     Object {

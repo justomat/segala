@@ -115,7 +115,7 @@ describe('retry', () => {
         retries,
       });
 
-      const result = await expectSaga(retryableGenerator, action).run();
+      const result = await expectSaga(retryableGenerator, action).run(200 * 2 * 15);
 
       expect(result.toJSON()).toMatchSnapshot();
       expect(dummyClient).toHaveBeenCalledTimes(1 + retries); // original call + n retries
